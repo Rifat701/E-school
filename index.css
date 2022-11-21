@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15%;
+  padding-left: 10%;
+}
+.hero img {
+  width: 120px;
+  height: 80px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: -5px;
+  padding-right: 5px;
+  transition: 0.4s;
+}
+.hero button {
+  width: 80px;
+  height: 30px;
+  float: right;
+  margin-right: 120px;
+  margin-top: -54px;
+  color: white;
+  background-color: #1fb877;
+  border: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.mdl {
+  position: relative;
+}
+.aliment {
+  position: absolute;
+  left: 10%;
+  margin-top: 8%;
+}
+.aliment p {
+  color: red;
+}
+.aliment h1 {
+  font-size: 45px;
+  margin-top: 2%;
+}
+.aliment i {
+  margin-top: 2%;
+  color: black;
+}
+.aliment button {
+  margin-top: 5%;
+  width: 100px;
+  height: 35px;
+  background-color: #1fb877;
+  border: transparent;
+  border-radius: 30px;
+  color: wheat;
+  cursor: pointer;
+}
+.mdl img {
+  position: absolute;
+  right: 10%;
+  margin-top: 6%;
+}
+
+.box {
+  margin-top: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 100px 200px;
+}
+.box button {
+  width: 180px;
+  height: 150px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.box button:hover {
+  background-color: #1fb877;
+  border: 1px solid black;
+}
+
+.courses h1 {
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 40px 170px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  align-items: left;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.box1:hover {
+  transform: scale(1.2);
+}
+.box1 h2 {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.box1 button {
+  margin-top: 5%;
+  width: 100px;
+  height: 30px;
+  border: transparent;
+  border-radius: 30px;
+  background-color: #1fb877;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.box1 p {
+  margin-top: 3%;
+}
+
+.testimonial h1 {
+  text-align: center;
+}
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-top: 4%;
+  margin-left: 35%;
+}
+.testimonial p {
+  margin-left: 44%;
+  margin-top: -7%;
+}
+
+.footer {
+  margin-top: 5%;
+  background-color: #282633;
+  width: 1350px;
+  height: 280px;
+  color: white;
+  position: relative;
+}
+.footer p {
+  position: absolute;
+  top: 15%;
+  margin-left: 150px;
+  font-size: 13px;
+}
+.frst .course h3 {
+  position: absolute;
+  left: 500px;
+  top: 13%;
+}
+.footer .frst .course a {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 37%;
+  text-decoration: none;
+  color: white;
+}
+.frst {
+  font-size: 13px;
+}
+.frst .terms h3 {
+  position: absolute;
+  left: 700px;
+  top: 13%;
+}
+.footer .frst .terms a {
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 52%;
+  text-decoration: none;
+  color: white;
+}
+.frst .useful h3 {
+  position: absolute;
+  left: 900px;
+  top: 13%;
+}
+.footer .frst .useful a {
+  position: absolute;
+  margin-top: -5%;
+  margin-left: 66.5%;
+  text-decoration: none;
+  color: white;
+}
+.footer .end p {
+  position: absolute;
+  top: 70%;
+  left: 32%;
+}
